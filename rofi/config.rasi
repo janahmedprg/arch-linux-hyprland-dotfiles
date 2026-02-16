@@ -1,6 +1,6 @@
 configuration {
     modi:               "drun,emoji,calc";
-    font:               "HarmonyOS Sans SC Bold 13, Noto Color Emoji 13";
+    font:               "HarmonyOS Sans SC Bold 13";
     show-icons:         true;
     icon-theme:         "Reversal-dark";
     display-drun:       "";
@@ -8,6 +8,8 @@ configuration {
     sidebar-mode:       false;
     kb-row-up:          "Up,Alt+k";
     kb-row-down:        "Down,Alt+j";
+    scroll-method:      1;
+    cycle:              false;
 }
 
 @theme "/dev/null"
@@ -25,7 +27,7 @@ configuration {
 
 /* ================== Window ================== */
 window {
-    width: 36%;
+    width: 27%;
     padding: 28px;
     border-radius: 8px;
     background-color: @bg;
@@ -67,6 +69,19 @@ listview {
     dynamic: true;
     layout: vertical;
     spacing: 8px;
+    scrollbar: true;
+}
+
+/* ================== Scrollbar ================== */
+scrollbar {
+    width: 6px;
+    border-radius: 4px;
+    background-color: rgba(134, 142, 198, 0.4);
+}
+
+scrollbar handle {
+    background-color: @accent;
+    border-radius: 4px;
 }
 
 /* ================== Elements ================== */
