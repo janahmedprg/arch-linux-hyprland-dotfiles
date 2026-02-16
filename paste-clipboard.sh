@@ -2,6 +2,7 @@
 
 ~/.config/hypr/scripts/cliphist-rofi.sh \
     | rofi -dmenu \
+        -i \
         -show-icons \
         -display-columns 2 \
         -theme-str 'element-icon { size: 5em; }' \
