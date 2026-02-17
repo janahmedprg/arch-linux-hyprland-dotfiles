@@ -2,11 +2,11 @@
 
 ~/.config/hypr/scripts/cliphist-rofi.sh \
     | rofi -dmenu \
-        -i \
+    	-i \
         -show-icons \
         -display-columns 2 \
         -theme-str 'element-icon { size: 5em; }' \
-    | ~/.config/hypr/scripts/cliphist-rofi.sh \
+    | cliphist decode \
     | wl-copy
 
 hyprctl dispatch sendshortcut CTRL, V, activewindow

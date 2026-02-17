@@ -3,11 +3,6 @@
 tmp_dir="/tmp/cliphist"
 rm -rf "$tmp_dir"
 
-if [[ -n "$1" ]]; then
-    cliphist decode <<<"$1" | wl-copy
-    exit
-fi
-
 mkdir -p "$tmp_dir"
 
 read -r -d '' prog <<EOF
