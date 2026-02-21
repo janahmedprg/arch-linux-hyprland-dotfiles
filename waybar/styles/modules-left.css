@@ -30,3 +30,12 @@
 #window {
 	margin-left: 12px;
 }
+
+#custom-hyprmon {
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+#custom-hyprmon:hover {
+    background: rgba(255,255,255,0.1);
+}

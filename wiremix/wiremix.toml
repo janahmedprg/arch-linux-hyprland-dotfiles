@@ -1,0 +1,4 @@
+keybindings = [
+ { key = "Enter", action = "SetDefault"},
+ {key = {Char = "d"}, action = "ActivateDropdown"}
+]

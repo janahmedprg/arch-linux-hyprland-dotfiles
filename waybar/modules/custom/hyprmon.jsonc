@@ -1,0 +1,8 @@
+{
+  "custom/hyprmon": {
+    "format": "",          // icon (nf-font icon)
+    "tooltip": "Hyprmon",
+    "on-click": "kitty -e hyprmon",
+    "interval": "once"
+  }
+}

@@ -15,6 +15,7 @@
 		"~/.config/waybar/modules/custom/user.jsonc",
 		"~/.config/waybar/modules/hyprland/workspaces.jsonc",
 		"~/.config/waybar/modules/hyprland/window.jsonc",
+		"~/.config/waybar/modules/custom/hyprmon.jsonc",
 
 		// modules-center
 		"~/.config/waybar/modules/hyprland/windowcount.jsonc",
@@ -49,6 +50,7 @@
 
 	"modules-left": [
 		"group/user",
+		"custom/hyprmon",
 		"custom/left_div#1",
 		"hyprland/workspaces",
 		"custom/right_div#1",
