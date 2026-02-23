@@ -3,7 +3,7 @@
         "return-type": "json", // Must be present
         "format": "{text}",        // "{}" is shorthand for "{text}"
         "exec": "~/.config/waybar/scripts/powerplan-status.sh",
-        "interval": 5,
+        "interval": 60,
         "on-click": "~/.config/waybar/scripts/toggle-power-profile.sh",
         "tooltip-format": "Power Plan: {alt}"
     }
