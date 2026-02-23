@@ -35,6 +35,7 @@
 		"~/.config/waybar/modules/backlight.jsonc",
 		"~/.config/waybar/modules/battery.jsonc",
 		"~/.config/waybar/modules/custom/power_menu.jsonc",
+		"~/.config/waybar/modules/custom/powerplan.jsonc",
 
 		"~/.config/waybar/modules/custom/dividers.jsonc"
 
@@ -88,6 +89,7 @@
 		"custom/left_div#8",
 		"battery",
 		"custom/left_inv#2",
+		"custom/powerplan",
 		"custom/power_menu"
 	],
 
