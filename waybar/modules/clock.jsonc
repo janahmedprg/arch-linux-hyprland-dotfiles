@@ -28,7 +28,7 @@
 
 	"clock#date": {
 		// "interval":
-		"format": "󰸗 {:%d-%m}",
+		"format": "󰸗 {:%m/%d}",
 		// "timezone":
 		// "timezones":
 		// "locale":
