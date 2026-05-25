@@ -71,3 +71,15 @@ Terminal=false
 Categories=Utility;
 Keywords=clipboard;copy;paste;
 ```
+VS Code Projects (`.local/share/applications/vs-code-rofi.desktop`):
+```
+[Desktop Entry]
+Type=Application
+Name=VS Code Projects
+Comment=Pick and open VS code projects
+Exec=rofi -modi vscode-recent -show vscode-recent
+Icon=/usr/share/pixmaps/visual-studio-code.png
+Terminal=false
+Categories=Utility;
+Keywords=vs;vscode;code;
+```
